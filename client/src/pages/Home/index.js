@@ -2,10 +2,16 @@ import React from 'react'
 import Style from "./index.module.css"
 import Hero from '../Hero'
 import Card from '../Card'
+import {Helmet} from "react-helmet";
 import Servers from '../Servers'
 const Home = () => {
   return (
     <>
+    <Helmet>
+                
+                <title>Home</title>
+               
+            </Helmet>
      <div className={Style.home} >
      <div className={Style.news}>
       <p>OPENNING ON 21ST FEBRUARY, 2018</p>

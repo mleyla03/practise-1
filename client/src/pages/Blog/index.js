@@ -2,7 +2,8 @@ import React from 'react'
 import { Button, TextField } from "@mui/material";
 import { useFormik} from "formik"
 import { posted } from '../../api/requests';
-import Style from "./index.module.css"
+import Style from "./index.module.css";
+import {Helmet} from "react-helmet";
 import { Security } from '../../validation/securityValidation';
 const Blog = () => {
 
@@ -28,6 +29,11 @@ const Blog = () => {
 
   return (
    <>
+       <Helmet>
+                
+                <title>Home</title>
+               
+            </Helmet>
    <h1 style={{ textAlign: "center", paddingTop: "220px" }}>Add Page</h1>
       <form  onSubmit={formik.handleSubmit} style={{ margin: "30px", display: "flex", justifyContent:"center", alignItems:"center",flexDirection:"column"}}>
         <TextField className={Style.inputs}  error={formik.errors.names && formik.touched.names ? true : false}
