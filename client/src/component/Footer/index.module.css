@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    margin-top: 120px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+  
+   
+
+    background-color: #04091e;
+
+}
+.footer p{
+    
+    color: #777777;
+    font-size: 16px;
+
+}
+.theend{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.orta{
+    margin-left: -200px;
+}
+.orta button{
+    background-color: #f7f70a;
+    color: white;
+    border: none;width: 30px; height: 30px;
+    margin-left: -10px;
+}
+.orta input{
+    height: 30px;
+    width: 200px;
+   outline: rgb(139, 95, 0);
+}
+.sag{
+    margin-left: 100px;
+    padding: 10px;
+}
+.sag i{
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.footer h5{
+    color: white;
+    font-size: 20px;
+}
+.footer .sol p{
+    width: 50%;
+    margin-bottom: 10px;
+}
